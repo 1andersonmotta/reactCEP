@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# 📫 Consulta de CEP com React e Axios na API ViaCEP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Se necessário atualize a página para carregamento do GIF](appcep.gif)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+Este é um aplicativo React simples que utiliza a biblioteca Axios para consultar informações de um CEP usando a API do ViaCEP. Permite aos usuários inserirem um CEP e, ao submeterem o formulário, obterem as informações relacionadas a esse CEP.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Insira um CEP no campo de entrada.
+- Ao enviar o formulário, as informações do CEP são exibidas.
 
-### `npm test`
+## Como Executar o Aplicativo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Certifique-se de ter o Node.js instalado em seu ambiente.
+2. Clone este repositório.
+3. Instale as dependências usando `npm install`.
+4. Inicie o aplicativo com `npm start`.
+5. Acesse o aplicativo em http://localhost:3000 no seu navegador.
 
-### `npm run build`
+## 🛠 Ferramentas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [REACT](https://react.dev/)
+- [NODE](https://nodejs.org/)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [AXIOS](https://axios-http.com/ptbr/docs/intro)
+- [ViaCEP](https://viacep.com.br/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribuição
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Se você tem alguma Sugestão enviar para devandersonmotta@gmail.com com o assunto: "contribuição reactCEP" ou entre em contato pelo Linkedin.
 
-### `npm run eject`
+## Licença
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+MIT
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ✉ Contato
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+email: devandersonmotta@gmail.com
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+linkedin: www.linkedin.com/in/anderson-motta-96b138235
+---
 
-## Learn More
+## 💡 Objetivo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Praticar os conceitos do REACT e interagir com API's. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
